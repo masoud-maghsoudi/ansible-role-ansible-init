@@ -1,2 +1,9 @@
+exclude_paths:
+  - .ansible*
+  - .github*
+  - *.md
+  - LICENSE
+
 skip_list:
-  - '403'
+  - package-latest
+  - role-name
