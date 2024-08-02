@@ -1,7 +1,7 @@
 galaxy_info:
   author: Masoud Maghsoudi
-  role_name: ansible-init
-  namespace: masoud-maghsoudi
+  role_name: ansible_init
+  namespace: masoud_maghsoudi
   description: This ansible role helps to install Ansible on different Linux distributions. It can help to run ansible-pull commands on servers later on.
 
   license: MIT
