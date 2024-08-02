@@ -1,7 +1,7 @@
 exclude_paths:
-  - .ansible*
-  - .github*
-  - *.md
+  - .ansible-lint
+  - .github/
+  - README.md
   - LICENSE
 
 skip_list:
