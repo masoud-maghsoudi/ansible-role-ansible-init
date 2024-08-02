@@ -25,10 +25,10 @@ galaxy_info:
     - ansible
     - linux
     - redhat
-    - oracle_linux
-    - alma_linux
-    - rocky_linux
-    - centos_stream
+    - ol
+    - alma
+    - rocky
+    - centos
     - debian
     - ubuntu
     
