@@ -6,17 +6,18 @@ Install ansible on managed nodes, so ansible-pull could be used for later automa
 
 In [defaults/main.yml](./defaults/main.yml) **"ansible_user"** has been set based on group names in [hosts.yml](../../hosts.yml) file. you can modify it if you would need.
 
-## Example Playbook
-
-    - hosts: servers
-      roles:
-         - ansible-init
-
-## Galaxy
+## Ansible Galaxy
 
 In order to install this role from ansible galaxy you could use command below:
 
     ansible-galaxy role install masoud-maghsoudi.ansible-init
+
+## Example Playbook
+
+    - hosts: all
+      gather_facts: true
+      roles:
+         - masoudi-maghsoudi.ansible-init
 
 ## License
 
